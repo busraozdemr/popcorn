@@ -1,0 +1,160 @@
+10:33:34.573 [main] INFO  com.intuit.karate.Runner - karate.env is: 'karate Lessons'
+10:33:35.587 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:33:35.615 [main] DEBUG com.intuit.karate.Suite - waiting for 29 features to complete
+10:33:36.932 [pool-2-thread-1] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:36.938 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:features/authentication/generateAccessToken.feature
+10:33:37.069 [pool-2-thread-1] INFO  com.intuit.karate - [print] accessToken --->  bla bla bla 
+10:33:37.072 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:features/authentication/generateAccessToken.feature
+10:33:37.571 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_312)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:33:38.808 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1224
+1 < 200
+1 < Date: Tue, 04 Jan 2022 07:33:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < access-control-allow-origin: *
+1 < etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4464
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TgENNCF78OXAvGw%2Fu8HPlWHj%2F2ZcQAKahKCrHtHYjBhrn1adVX1l%2Bfm05gv0AmC2Lk4hjbOSpysJGrkPWbOJspsfOLeeOmRFuLfnMcLycasGDk8MfhgesIrE8es%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 6c82c7a60f81744f-LHR
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+10:33:38.998 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:38.998 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:38.998 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:38.998 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:38.998 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:39.018 [pool-1-thread-2] INFO  com.intuit.karate - [print] fouth scenario 
+10:33:39.018 [pool-1-thread-1] INFO  com.intuit.karate - [print] second scenario 
+10:33:39.054 [pool-1-thread-5] INFO  com.intuit.karate - [print] result ---> Hello 
+10:33:39.055 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 4 by tag: @tag1
+10:33:39.055 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 4 by tag: @tag1
+10:33:39.067 [pool-1-thread-5] INFO  com.intuit.karate - {
+  "errorMessage": null,
+  "featureDir": "/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic",
+  "scenarioDescription": "",
+  "scenarioName": "conditional logic function",
+  "featureFileName": "conditionalLogic.feature"
+}
+ 
+10:33:39.081 [pool-1-thread-4] INFO  com.intuit.karate - [print] sample 2 
+10:33:39.082 [pool-1-thread-3] INFO  com.intuit.karate - [print] sample 1 
+10:33:39.081 [pool-1-thread-2] INFO  com.intuit.karate - [print] first scenario 
+10:33:39.086 [pool-1-thread-4] INFO  com.intuit.karate - {
+  "errorMessage": null,
+  "featureDir": "/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic",
+  "scenarioDescription": "",
+  "scenarioName": "conditional logic if condition",
+  "featureFileName": "conditionalLogic.feature"
+}
+ 
+10:33:39.108 [pool-1-thread-3] INFO  com.intuit.karate - [print] result --->  {
+  "authorization": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJidXNyYUBwb3Bjb3JudmFuLmNvbSIsIm5hbWUiOiJiw7zFn3JhIGLDvMWfcmEiLCJVc2VyVHlwZSI6IkVtcGxveWVlIiwiTmFtZSI6ImLDvMWfcmEgYsO8xZ9yYSIsIkVtYWlsIjoiYnVzcmFAcG9wY29ybnZhbi5jb20iLCJVc2VySWQiOiIzYzA1ZjhjMS1iMmMzLTQ0NjUtYjRlNS03NmE1ZThlNzkzYTgiLCJuYmYiOjE2NDEyMTYzMTMsImV4cCI6MTY3Mjc1MjMxMywiaWF0IjoxNjQxMjE2MzEzLCJpc3MiOiJodHRwczovL3BvcGNvcm52YW4uY29tLyIsImF1ZCI6Imh0dHBzOi8vcG9wY29ybnZhbi5jb20vIn0.tqa3L0JFc1QmaOz-1N9qe9HoaAQqBVGPonbkzfshj_NF9S-rOnnpQzCe1NcTZvLYAgKojToO57QsUWi_f5XN-w",
+  "userApiUrl": "https://testapi.popcornvan.cloud/user/",
+  "auth": {
+    "accessToken": "bla bla bla"
+  },
+  "authInfo": {
+    "accessToken": "bla bla bla",
+    "response": {
+      "access_token": "bla bla bla"
+    }
+  },
+  "responseCode": 404
+}
+ 
+10:33:39.112 [pool-1-thread-3] INFO  com.intuit.karate - {
+  "errorMessage": null,
+  "featureDir": "/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic",
+  "scenarioDescription": "",
+  "scenarioName": "conditional logic response code",
+  "featureFileName": "conditionalLogic.feature"
+}
+ 
+10:33:39.149 [pool-1-thread-1] INFO  com.intuit.karate - [print] first scenario 
+10:33:39.207 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:39.207 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:39.207 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:39.207 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : karate Lessons 
+10:33:39.346 [pool-1-thread-5] INFO  com.intuit.karate - [print] sample 2 
+10:33:39.345 [pool-1-thread-4] INFO  com.intuit.karate - [print] sample 1 
+10:33:39.427 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://testapi.popcornvan.cloud/user/Customer/Address/GetAddressForOrder
+1 > accept: */*
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJidXNyYUBwb3Bjb3JudmFuLmNvbSIsIm5hbWUiOiJiw7zFn3JhIGLDvMWfcmEiLCJVc2VyVHlwZSI6IkVtcGxveWVlIiwiTmFtZSI6ImLDvMWfcmEgYsO8xZ9yYSIsIkVtYWlsIjoiYnVzcmFAcG9wY29ybnZhbi5jb20iLCJVc2VySWQiOiIzYzA1ZjhjMS1iMmMzLTQ0NjUtYjRlNS03NmE1ZThlNzkzYTgiLCJuYmYiOjE2NDEyMTYzMTMsImV4cCI6MTY3Mjc1MjMxMywiaWF0IjoxNjQxMjE2MzEzLCJpc3MiOiJodHRwczovL3BvcGNvcm52YW4uY29tLyIsImF1ZCI6Imh0dHBzOi8vcG9wY29ybnZhbi5jb20vIn0.tqa3L0JFc1QmaOz-1N9qe9HoaAQqBVGPonbkzfshj_NF9S-rOnnpQzCe1NcTZvLYAgKojToO57QsUWi_f5XN-w
+1 > Host: testapi.popcornvan.cloud
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_312)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:33:39.428 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://testapi.popcornvan.cloud/user/Customer/Address/GetAddressForOrder
+1 > accept: */*
+1 > Host: testapi.popcornvan.cloud
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_312)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:33:40.831 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1402
+1 < 401
+1 < Date: Tue, 04 Jan 2022 07:33:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 163
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E2G%2FOjMpLb4AxS1fNEXe48YXphKCf9P4voXOY7NE%2Bz%2B4CY%2BdIuPErm0Uopf3nMCRtbPOPbdx3t7kI02AzuMlImdk54hxDi6vDK%2BmbG3EjJocKPgAlRaHvduPPmwR3W%2B5YS4lQ35wFkFzBYE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6c82c7adaaf2374c-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+{"visible":true,"action":"default","messages":["User Authorization Error"],"type":"authorization","title":null,"message":"User Authorization Error","typeCode":401}
+10:33:40.831 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1402
+1 < 204
+1 < Date: Tue, 04 Jan 2022 07:33:40 GMT
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RNx%2BqB1i7NFno1%2FyFACGTW06%2F1qNV0SJ3Y47CwqICNxNN%2FGsxvW3j16cwN6QChzIQMmdzHPqsGSkQj%2BT0wlbRRgD70otSKQtYgTk9W6j1xSGMRwfX8SJ6dSOHbhdupW%2B3FuHgqXEmbimn5k%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6c82c7ad5a8c3763-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+10:33:40.860 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+10:33:40.860 [pool-1-thread-2] INFO  com.intuit.karate - [print]  
+10:33:41.712 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 22 of 29 (7 remaining) classpath:features/callFeature/userDetail1.feature
+10:33:41.857 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 24 of 29 (5 remaining) classpath:features/callscenarioorfeature/callscenarioFromAnotherScenario.feature
+10:33:41.939 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 25 of 29 (4 remaining) classpath:features/callscenarioorfeature/callscenarioFromAnotherfeatureScenario.feature
+10:33:42.210 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 26 of 29 (3 remaining) classpath:features/conditionalLogic/conditionalLogic.feature
+10:33:42.274 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 27 of 29 (2 remaining) classpath:features/conditionalLogic/sample1.feature
+10:33:42.313 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 28 of 29 (1 remaining) classpath:features/conditionalLogic/sample2.feature
+10:33:42.397 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 29 of 29 (0 remaining) classpath:features/userApi/address/get_address_for_order.feature

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-2-thread-1","id":4},{"content":"pool-1-thread-5","id":5},{"content":"pool-1-thread-4","id":6}];
+var items = [{"id":1,"group":1,"content":"features\/callscenarioorfeature\/callscenarioFromAnotherScenario[2:8]","start":1641281618984,"end":1641281619173,"title":"features\/callscenarioorfeature\/callscenarioFromAnotherScenario[2:8] 10:33:38.984-10:33:39.173 call"},{"id":2,"group":2,"content":"features\/userApi\/address\/get_address_for_order[1:7]","start":1641281619206,"end":1641281620863,"title":"features\/userApi\/address\/get_address_for_order[1:7] 10:33:39.206-10:33:40.863 Get Address For Order - Success Scenario"},{"id":3,"group":3,"content":"features\/userApi\/address\/get_address_for_order[2:14]","start":1641281619206,"end":1641281620874,"title":"features\/userApi\/address\/get_address_for_order[2:14] 10:33:39.206-10:33:40.874 Get Address For Order - Missing Authorization"},{"id":4,"group":4,"content":"features\/callFeature\/userDetail1[1:7]","start":1641281616844,"end":1641281618841,"title":"features\/callFeature\/userDetail1[1:7] 10:33:36.844-10:33:38.841 basic get call 2"},{"id":5,"group":5,"content":"features\/conditionalLogic\/sample2[1:4]","start":1641281619206,"end":1641281619352,"title":"features\/conditionalLogic\/sample2[1:4] 10:33:39.206-10:33:39.352 using karate-config"},{"id":6,"group":2,"content":"features\/callscenarioorfeature\/callscenarioFromAnotherfeatureScenario[2:8]","start":1641281618984,"end":1641281619100,"title":"features\/callscenarioorfeature\/callscenarioFromAnotherfeatureScenario[2:8] 10:33:38.984-10:33:39.100 call 4"},{"id":7,"group":6,"content":"features\/conditionalLogic\/sample1[1:3]","start":1641281619206,"end":1641281619352,"title":"features\/conditionalLogic\/sample1[1:3] 10:33:39.206-10:33:39.352 basic get call"},{"id":8,"group":3,"content":"features\/conditionalLogic\/conditionalLogic[3:25]","start":1641281618984,"end":1641281619109,"title":"features\/conditionalLogic\/conditionalLogic[3:25] 10:33:38.984-10:33:39.109 conditional logic response code"},{"id":9,"group":6,"content":"features\/conditionalLogic\/conditionalLogic[4:33]","start":1641281618984,"end":1641281619084,"title":"features\/conditionalLogic\/conditionalLogic[4:33] 10:33:38.984-10:33:39.084 conditional logic if condition"},{"id":10,"group":5,"content":"features\/conditionalLogic\/conditionalLogic[5:38]","start":1641281618984,"end":1641281619054,"title":"features\/conditionalLogic\/conditionalLogic[5:38] 10:33:38.984-10:33:39.054 conditional logic function"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

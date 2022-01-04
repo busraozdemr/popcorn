@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>features.conditionalLogic.conditionalLogic</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-01-04 10:33:41 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[3:25]"><span>[3:25]</span> <span>conditional logic response code</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:33]"><span>[4:33]</span> <span>conditional logic if condition</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:38]"><span>[5:38]</span> <span>conditional logic function</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/conditionalLogic/conditionalLogic.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">conditional logic</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:25]</span>
+                <span class="scenario-name">conditional logic response code</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>92</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure afterScenario =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4">function(){
+var info = karate.info;
+karate.log(info);
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:33:39.002 Environment variable is : karate Lessons 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseCode = 404;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = responseCode == 200 ? {} : karate.call(&#39;sample1.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">68</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.27.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.conditionalLogic.sample1</div>
+      </div>
+      <div class="time-cell passed">11</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.27.0.call">
+    <div class="step-container" id="0.27.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print &#39;sample 1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27.0.call.0.4">10:33:39.083 [print] sample 1 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def result = responseCode == 404 ? karate.call(&#39;sample1.feature&#39;) : {}</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def result = responseCode == 404 ? karate.call(&#39;sample2.feature&#39;) : karate.call(&#39;sample1.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print &#39;result ---&gt; &#39;,result</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">10:33:39.110 [print] result ---&gt;  {
+  &quot;authorization&quot;: &quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJidXNyYUBwb3Bjb3JudmFuLmNvbSIsIm5hbWUiOiJiw7zFn3JhIGLDvMWfcmEiLCJVc2VyVHlwZSI6IkVtcGxveWVlIiwiTmFtZSI6ImLDvMWfcmEgYsO8xZ9yYSIsIkVtYWlsIjoiYnVzcmFAcG9wY29ybnZhbi5jb20iLCJVc2VySWQiOiIzYzA1ZjhjMS1iMmMzLTQ0NjUtYjRlNS03NmE1ZThlNzkzYTgiLCJuYmYiOjE2NDEyMTYzMTMsImV4cCI6MTY3Mjc1MjMxMywiaWF0IjoxNjQxMjE2MzEzLCJpc3MiOiJodHRwczovL3BvcGNvcm52YW4uY29tLyIsImF1ZCI6Imh0dHBzOi8vcG9wY29ybnZhbi5jb20vIn0.tqa3L0JFc1QmaOz-1N9qe9HoaAQqBVGPonbkzfshj_NF9S-rOnnpQzCe1NcTZvLYAgKojToO57QsUWi_f5XN-w&quot;,
+  &quot;userApiUrl&quot;: &quot;https://testapi.popcornvan.cloud/user/&quot;,
+  &quot;auth&quot;: {
+    &quot;accessToken&quot;: &quot;bla bla bla&quot;
+  },
+  &quot;authInfo&quot;: {
+    &quot;accessToken&quot;: &quot;bla bla bla&quot;,
+    &quot;response&quot;: {
+      &quot;access_token&quot;: &quot;bla bla bla&quot;
+    }
+  },
+  &quot;responseCode&quot;: 404
+}
+ 
+10:33:39.112 {
+  &quot;errorMessage&quot;: null,
+  &quot;featureDir&quot;: &quot;/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic&quot;,
+  &quot;scenarioDescription&quot;: &quot;&quot;,
+  &quot;scenarioName&quot;: &quot;conditional logic response code&quot;,
+  &quot;featureFileName&quot;: &quot;conditionalLogic.feature&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:33]</span>
+                <span class="scenario-name">conditional logic if condition</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>65</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:33]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure afterScenario =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4">function(){
+var info = karate.info;
+karate.log(info);
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:33:39.002 Environment variable is : karate Lessons 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseCode = 200;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>if (responseCode == 200) karate.call(&#39;sample2.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">52</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">10:33:39.086 {
+  &quot;errorMessage&quot;: null,
+  &quot;featureDir&quot;: &quot;/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic&quot;,
+  &quot;scenarioDescription&quot;: &quot;&quot;,
+  &quot;scenarioName&quot;: &quot;conditional logic if condition&quot;,
+  &quot;featureFileName&quot;: &quot;conditionalLogic.feature&quot;
+}
+ 
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.35.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.conditionalLogic.sample2</div>
+      </div>
+      <div class="time-cell passed">10</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;sample 2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35.0.call.0.5">10:33:39.083 [print] sample 2 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:38]</span>
+                <span class="scenario-name">conditional logic function</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>33</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure afterScenario =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4">function(){
+var info = karate.info;
+karate.log(info);
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:33:38.999 Environment variable is : karate Lessons 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseCode = 200;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def myfun =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.40">function(){
+    return &#39;Hello&#39;}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>if (responseCode == 200) myfun()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = responseCode == 200 ? myfun() : {}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print &#39;result ---&gt;&#39;,result</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">10:33:39.054 [print] result ---&gt; Hello 
+10:33:39.068 {
+  &quot;errorMessage&quot;: null,
+  &quot;featureDir&quot;: &quot;/Users/busraozdemir/Documents/GitHub/PopcornApiAutomation/PopcornApiAutomation/target/test-classes/features/conditionalLogic&quot;,
+  &quot;scenarioDescription&quot;: &quot;&quot;,
+  &quot;scenarioName&quot;: &quot;conditional logic function&quot;,
+  &quot;featureFileName&quot;: &quot;conditionalLogic.feature&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
